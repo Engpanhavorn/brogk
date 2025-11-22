@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Social Media Website</title>
+    <link rel="stylesheet" href="animated-website.css" />
+    <link rel="stylesheet" href="channel.html" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+    <header class="main-header">
+        <h1 class="main-title">BROGK-OFFICIAL</h1>
+        <p class="main-sub">Professional Animation AI 2025</p>
+        <button class="login-btn" id="loginBtn">Login</button>
+    </header>
+    <div class="login-modal" id="loginModal">
+        <div class="login-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="text" id="username" name="username" placeholder="Username" required />
+                <input type="password" id="password" name="password" placeholder="Password" required />
+               A <button type="submit">Sign In</button>
+                <p id="loginMsg"></p>
+            </form>
+        </div>
+    </div>
+    <section class="cards-section">
+        <ul class="social-cards">
+            <li class="card facebook">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                    <span>Facebook</span>
+                </a>
+            </li>
+            <li class="card twitter">
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                    <span>Twitter</span>
+                </a>
+            </li>
+            <li class="card google">
+                <a href="#">
+                    <i class="fab fa-google"></i>
+                    <span>Google</span>
+                </a>
+            </li>
+            <li class="card instagram">
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+            </li>
+            <li class="card youtube">
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                    <span>YouTube</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <script>
+        // Auto click YouTube card when page loads
+        window.addEventListener('DOMContentLoaded', function () {
+            const youtubeCard = document.querySelector('.card.youtube a');
+            if (youtubeCard) {
+                youtubeCard.click();
+            }
+            // Login modal logic
+            const loginBtn = document.getElementById('loginBtn');
+            const loginModal = document.getElementById('loginModal');
+            const closeModal = document.getElementById('closeModal');
+            loginBtn.onclick = function () {
+                loginModal.style.display = 'block';
+            };
+            closeModal.onclick = function () {
+                loginModal.style.display = 'none';
+            };
+            window.onclick = function (event) {
+                if (event.target == loginModal) {
+                    loginModal.style.display = 'none';
+                }
+            };
+            // JS login validation and redirect
+            const loginForm = document.getElementById('loginForm');
+            const loginMsg = document.getElementById('loginMsg');
+            loginForm.onsubmit = function (e) {
+                e.preventDefault();
+                const user = document.getElementById('username').value;
+                const pass = document.getElementById('password').value;
+                if (user === 'admin' && pass === '@2025panhavorn') {
+                    loginMsg.style.color = '#00c3ff';
+                    loginMsg.textContent = 'Login successful! Redirecting...';
+                    setTimeout(() => {
+                        window.location.href = 'newpage.html';
+                    }, 1200);
+                } else {
+                    loginMsg.style.color = '#ff6f61';
+                    loginMsg.textContent = 'Invalid username or password.';
+                }
+            };
+        });
+    </script>
+</body>
+
+</html>
