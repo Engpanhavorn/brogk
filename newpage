@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome - BROGK-OFFICIAL Channel</title>
+    <link rel="stylesheet" href="animated-website.css" />
+</head>
+
+<body>
+    <header class="main-header">
+        <h1 class="main-title">BROGK-OFFICIAL</h1>
+        <p class="main-sub">You are now logged in!</p>
+    </header>
+    <section class="cards-section">
+        <div style="text-align:center; margin-top:40px;">
+            <h2 style="color:#ff0000;">Welcome to the New Channel Page</h2>
+            <p style="color:#2a5298; font-size:1.2rem;">Enjoy exclusive content and features.</p>
+            <a href="animated-website.html"
+                style="display:inline-block;margin-top:18px;padding:10px 24px;background:#2a5298;color:#fff;border-radius:6px;text-decoration:none;">Back
+                to Home</a>
+        </div>
+        <!-- <!-- CookieYes Logo Clone -->
+        <div class="cookieyes-logo">
+            <svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0" y="0" width="120" height="40" rx="20" fill="#fff" />
+                <circle cx="30" cy="20" r="12" fill="#ff6f61" />
+                <text x="50" y="26" font-family="Montserrat, Arial, sans-serif" font-size="20" fill="#2a5298"
+                    font-weight="bold"></text>
+            </svg>
+        </div>
+        <!-- Animated animals section -->
+        <div class="animal-arena">
+            <div class="animal tiger">
+                <div class="tiger-face"></div>
+                <div class="tiger-tail"></div>
+            </div>
+            <div class="animal gorilla">
+                <div class="gorilla-face"></div>
+                <div class="gorilla-arm"></div>
+            </div>
+        </div>
+        <!-- Shop section -->
+        <div class="shop-section">
+            <h2 class="shop-title">Animal Shop</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <div class="shop-img tiger"></div>
+                    <div class="shop-label">Cyber Tiger Plush</div>
+                    <button class="shop-btn">Buy</button>
+                </div>
+                <div class="shop-item">
+                    <div class="shop-img gorilla"></div>
+                    <div class="shop-label">Thunder Gorilla Figure</div>
+                    <button class="shop-btn">Buy</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Channel - BROGK-OFFICIAL</title>
+        <link rel="stylesheet" href="animated-website.css" />
+        <link rel="stylesheet" href="facebook-clone.css" />
+        <link rel="stylesheet" href="youtube-clone.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    </head>
+
+    <body>
+        <!-- Channel Welcome Section -->
+        <header class="main-header">
+            <h1 class="main-title">BROGK-OFFICIAL</h1>
+            <p class="main-sub">Welcome to the New Channel!</p>
+        </header>
+        <section class="cards-section">
+            <div style="text-align:center; margin-top:40px;">
+                <h2 style="color:#ff0000;">Professional Animation AI 2025</h2>
+                <p style="color:#2a5298; font-size:1.2rem;">Thank you for logging in. Enjoy exclusive channel content!
+                </p>
+                <a href="animated-website.html"
+                    style="display:inline-block;margin-top:18px;padding:10px 24px;background:#2a5298;color:#fff;border-radius:6px;text-decoration:none;">Back
+                    to Home</a>
+            </div>
+        </section>
+        <!-- YouTube Clone Section -->
+        <section class="yt-main" style="margin-top:40px;">
+            <header class="yt-header">
+                <div class="yt-logo"><i class="fab fa-youtube"></i> YouTube</div>
+                <div class="yt-search">
+                    <input type="text" placeholder="Search" />
+                    <button class="yt-search-btn"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="yt-profile">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Profile" class="yt-avatar" />
+                    <span class="yt-username">BROGK-OFFICIAL</span>
+                </div>
+            </header>
+            <main class="yt-main">
+                <aside class="yt-sidebar">
+                    <ul>
+                        <li><i class="fas fa-home"></i> Home</li>
+                        <li><i class="fas fa-fire"></i> Trending</li>
+                        <li><i class="fas fa-play-circle"></i> Subscriptions</li>
+                        <li><i class="fas fa-history"></i> History</li>
+                    </ul>
+                </aside>
+                <section class="yt-feed">
+                    <div class="yt-video-card">
+                        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80"
+                            alt="Video" class="yt-thumb" />
+                        <div class="yt-video-info">
+                            <h3 class="yt-video-title">Welcome to BROGK-OFFICIAL Channel</h3>
+                            <p class="yt-video-desc">Professional Animation AI 2025 - Cinematic Showdown Demo</p>
+                            <div class="yt-video-meta">
+                                <span>1M views</span> • <span>1 day ago</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="yt-video-card">
+                        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80"
+                            alt="Video" class="yt-thumb" />
+                        <div class="yt-video-info">
+                            <h3 class="yt-video-title">Cyber Tiger vs Thunder Gorilla</h3>
+                            <p class="yt-video-desc">Ultra-realistic CGI battle in a neon jungle arena.</p>
+                            <div class="yt-video-meta">
+                                <span>500K views</span> • <span>2 days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <aside class="yt-rightbar">
+                    <h3>Recommended Channels</h3>
+                    <ul>
+                        <li><i class="fab fa-youtube"></i> BROGK-OFFICIAL</li>
+                        <li><i class="fab fa-youtube"></i> Animation AI</li>
+                    </ul>
+                </aside>
+            </main>
+        </section>
+        <!-- Facebook Clone Section -->
+        <section class="fb-main" style="margin-top:40px;">
+            <header class="fb-header">
+                <div class="fb-logo"><i class="fab fa-facebook-f"></i> Facebook</div>
+                <div class="fb-search">
+                    <input type="text" placeholder="Search Facebook" />
+                </div>
+                <div class="fb-profile">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Profile" class="fb-avatar" />
+                    <span class="fb-username">BROGK-OFFICIAL</span>
+                </div>
+            </header>
+            <main class="fb-main">
+                <aside class="fb-sidebar">
+                    <ul>
+                        <li><i class="fas fa-home"></i> Home</li>
+                        <li><i class="fas fa-user-friends"></i> Friends</li>
+                        <li><i class="fas fa-users"></i> Groups</li>
+                        <li><i class="fas fa-tv"></i> Watch</li>
+                        <li><i class="fas fa-store"></i> Marketplace</li>
+                    </ul>
+                </aside>
+                <section class="fb-feed">
+                    <div class="fb-status">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Profile" class="fb-avatar" />
+                        <input type="text" placeholder="What's on your mind, BROGK-OFFICIAL?" />
+                        <button class="fb-post-btn">Post</button>
+                    </div>
+                    <div class="fb-post">
+                        <div class="fb-post-header">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Profile" class="fb-avatar" />
+                            <span class="fb-username">BROGK-OFFICIAL</span>
+                            <span class="fb-time">Just now</span>
+                        </div>
+                        <div class="fb-post-content">
+                            Welcome to the Facebook Clone! This is a demo post.
+                        </div>
+                        <div class="fb-post-actions">
+                            <button><i class="far fa-thumbs-up"></i> Like</button>
+                            <button><i class="far fa-comment"></i> Comment</button>
+                            <button><i class="fas fa-share"></i> Share</button>
+                        </div>
+                    </div>
+                </section>
+                <aside class="fb-rightbar">
+                    <h3>Sponsored</h3>
+                    <div class="fb-sponsored">
+                        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80"
+                            alt="Ad" />
+                        <p>Check out BROGK-OFFICIAL's new channel!</p>
+                    </div>
+                </aside>
+            </main>
+        </section>
+    </body>
+
+    </html>
